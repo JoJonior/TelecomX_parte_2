@@ -2,6 +2,10 @@
 
 Este projeto tem como objetivo identificar os principais fatores que influenciam o cancelamento de clientes na empresa **Telecom X**. A partir de dados históricos, foram aplicadas técnicas de análise exploratória, pré-processamento e modelos de machine learning para prever a evasão de clientes e auxiliar na tomada de decisões estratégicas.
 
+## Tecnologias utilizadas:
+
+Python • Pandas • NumPy • Matplotlib • Seaborn • Scikit-learn • Jupyter Notebook
+
 
 ## 🧠 Problema
 
@@ -103,12 +107,28 @@ Como visto na distribuição de evasão, os dados estão desbalanceados. Para me
 
 ---
 
-## 📌 Principais Insights
 
-- Contratos mensais possuem maior taxa de cancelamento.
-- Clientes sem serviços adicionais tendem a cancelar mais.
-- A fidelização aumenta com o tempo de permanência.
 
----
+## Fatores que afetam a evasão de clientes
+A análise conduzida revelou que os principais fatores que influenciam a evasão (churn) de clientes da TelecomX são:
+
+* Contrato: Clientes com contratos mensais apresentaram maior probabilidade de evasão.
+
+* Serviços adicionais: Usuários que não utilizam serviços como segurança online ou backup de dados mostraram maior tendência ao churn.
+
+* Cobrança eletrônica: Clientes que utilizam fatura eletrônica tiveram uma taxa de evasão mais alta.
+
+* Suporte técnico e atendimento: Sinais de insatisfação com suporte também correlacionaram-se com maiores índices de cancelamento.
+
+## Estratégias de retenção propostas
+Com base nas variáveis mais influentes e nos insights obtidos, propõem-se as seguintes estratégias:
+
+* Incentivar contratos anuais: Oferecer vantagens (como descontos ou benefícios exclusivos) para migração de contratos mensais para anuais.
+
+* Promoção de serviços adicionais: Criar campanhas de engajamento para destacar a importância dos serviços de segurança online, backup e suporte técnico, mostrando valor ao cliente.
+
+* Revisar comunicação eletrônica: Avaliar a clareza e eficácia das cobranças digitais, incluindo linguagem, formato e frequência.
+
+* Programa de fidelidade e atendimento personalizado: Implementar ações específicas para clientes com perfil de risco, como descontos, ligações preventivas e suporte prioritário.
 
 
