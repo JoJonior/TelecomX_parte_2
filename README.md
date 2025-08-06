@@ -47,8 +47,8 @@ Como visto na distribuição de evasão, os dados estão desbalanceados. Para me
 ### Decision Tree PLOT
 ### Sem Balanceamento [3298,1334] x Com Balanceamento [3298,3298]
 <div align="center">
-<img src="./OUTPUT/_tree_No_Balance.png" alt="Sem Balanceamento 3298,1334" width="400">
-<img src="./OUTPUT/_tree_Balance.png" alt="Com Balanceamento 3298,3298" width="400">
+<img src="./OUTPUT/_tree_No_Balance.png" alt="Sem Balanceamento 3298,1334">
+<img src="./OUTPUT/_tree_Balance.png" alt="Com Balanceamento 3298,3298" >
 </div>
 
 4. **Modelagem**
